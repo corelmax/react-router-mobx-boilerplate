@@ -5,7 +5,7 @@ import {Provider} from 'mobx-react'
 import {createBrowserHistory} from 'history'
 import registerServiceWorker from './registerServiceWorker'
 import configureStore from './store'
-import App from './App'
+import App from './containers/App'
 
 const browserHistory = createBrowserHistory()
 
@@ -22,4 +22,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-registerServiceWorker();
+// registerServiceWorker();
